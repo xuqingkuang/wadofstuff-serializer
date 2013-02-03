@@ -7,7 +7,7 @@ from django.core.serializers.python import Deserializer as PythonDeserializer
 
 __models = dict()
 
-def _Serializer_get_class_unicode(meta):
+def _Serializer__get_class_unicode(meta):
     if meta not in __models:
         __models[meta] = smart_unicode(meta)
     return __models[meta]
