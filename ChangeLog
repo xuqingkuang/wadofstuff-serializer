@@ -1,3 +1,6 @@
+Version 1.1.2:
+- Applied patch from http://code.google.com/p/wadofstuff/issues/detail?id=4
+
 Version 1.1.0:
 
 - Added support for "natural keys" as implemented in Django.
